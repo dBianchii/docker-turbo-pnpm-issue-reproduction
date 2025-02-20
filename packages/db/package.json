@@ -2,6 +2,6 @@
   "name": "@repo/db",
   "type": "module",
   "scripts": {
-    "dev": "docker compose up"
+    "dev": "docker compose up --build"
   }
 }
