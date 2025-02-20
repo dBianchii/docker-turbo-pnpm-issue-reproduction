@@ -57,6 +57,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@repo/db':
+        specifier: workspace:*
+        version: link:../../packages/db
       '@repo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -91,6 +94,8 @@ importers:
       typescript:
         specifier: 5.7.3
         version: 5.7.3
+
+  packages/db: {}
 
   packages/eslint-config:
     devDependencies:

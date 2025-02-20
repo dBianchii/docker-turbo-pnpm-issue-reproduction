@@ -1,0 +1,7 @@
+{
+  "name": "@repo/db",
+  "type": "module",
+  "scripts": {
+    "dev": "docker compose up"
+  }
+}
